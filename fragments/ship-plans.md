@@ -3,8 +3,8 @@
 All plan files are written. Ship them now so they land on their own PR before execution begins.
 
 Call `hv_ship` on the deck with:
-- **message**: `planning: {{Deck}}/{{Branch}}`
-- **title**: `planning: {{Deck}}/{{Branch}}`
+- **message**: `planning: {{.Deck}}/{{.Branch}}`
+- **title**: `planning: {{.Deck}}/{{.Branch}}`
 
 After `hv_ship` completes:
 - The planning PR is merged
