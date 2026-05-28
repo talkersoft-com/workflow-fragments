@@ -3,7 +3,7 @@
 Create the workflow folder at `{{.WorkflowFolder}}/{{.Deck}}/{{.Branch}}/`:
 
 ```
-{{WorkflowFolder}}/{{Deck}}/{{Branch}}/
+{{.WorkflowFolder}}/{{.Deck}}/{{.Branch}}/
   init.md
   deck.md
   Orchestrate/

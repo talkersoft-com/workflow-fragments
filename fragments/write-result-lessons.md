@@ -6,13 +6,13 @@ or they land on the next branch and miss the PR.
 ### `Results/RESULT.md`
 
 ```markdown
-# Result: {{Deck}}/{{Branch}}
+# Result: {{.Deck}}/{{.Branch}}
 
 ## Outcome
 SHIPPED | PARTIAL | FAILED
 
 ## Branch
-`{{Branch}}`
+`{{.Branch}}`
 
 ## Pull Requests
 | Repo | PR | Status |
@@ -29,7 +29,7 @@ SHIPPED | PARTIAL | FAILED
 ### `Retro/LESSONS.md`
 
 ```markdown
-# Lessons: {{Deck}}/{{Branch}}
+# Lessons: {{.Deck}}/{{.Branch}}
 
 ## What would have helped
 <Numbered list. Be specific — name the missing MCP method, the doc that should

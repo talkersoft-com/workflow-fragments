@@ -1,7 +1,7 @@
 ## Step 4 — Write `Orchestrate/ORCH.md`
 
 ```markdown
-# Orchestration: {{Deck}}/{{Branch}}
+# Orchestration: {{.Deck}}/{{.Branch}}
 
 ## Objective
 <One paragraph describing what done looks like.>
@@ -34,7 +34,7 @@ Check the box when the task is implemented AND its test passes.
 
 ## Autonomous execution
 ```
-/loop Continue executing tasks in {{WorkflowFolder}}/{{Deck}}/{{Branch}}/Orchestrate/ORCH.md. Start by running
+/loop Continue executing tasks in {{.WorkflowFolder}}/{{.Deck}}/{{.Branch}}/Orchestrate/ORCH.md. Start by running
 hv_status then hv_init (or hv_next) per deck.md. For each unchecked task: read
 the task file, do the work, run the matching Test file. On failure write
 Retro/FIX-NNN.md and retry. On pass check the box. When all boxes are checked
