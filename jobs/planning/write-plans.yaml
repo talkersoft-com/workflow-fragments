@@ -1,0 +1,9 @@
+init:
+  - "@write-init"
+  - "@write-deck"
+  - "@write-orch"
+jobs:
+  - write-tasks
+  - write-tests
+post:
+  - "@write-result-lessons"

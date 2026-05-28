@@ -1,0 +1,3 @@
+fragments:
+  - "@status-check"
+  - "@folder-structure"
