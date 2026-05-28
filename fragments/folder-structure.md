@@ -1,6 +1,6 @@
 ## Step 1 — Create the folder structure
 
-Create the workflow folder at `{{WorkflowFolder}}/{{Deck}}/{{Branch}}/`:
+Create the workflow folder at `{{.WorkflowFolder}}/{{.Deck}}/{{.Branch}}/`:
 
 ```
 {{WorkflowFolder}}/{{Deck}}/{{Branch}}/
