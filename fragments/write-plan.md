@@ -3,7 +3,7 @@
 Create the folder:
 
 ```
-{{WorkflowPlanningFolder}}/{{Deck}}/{{Branch}}/
+{{.WorkflowPlanningFolder}}/{{.Deck}}/{{.Branch}}/
 ```
 
 ## Step 2 — Write `PLAN.md`
@@ -41,7 +41,7 @@ Remove this section if there are none.>
 ## Step 3 — Ship the plan
 
 ```
-hv_ship  deck: "{{Deck}}"
+hv_ship  deck: "{{.Deck}}"
          message: "plan: <title>"
          title:   "plan: <title>"
 ```
