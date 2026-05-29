@@ -1,7 +1,0 @@
-repo: talkersoft-com/workflow-plans
-tasks:
-  init:
-    - "@status-check"
-  jobs:
-    - write-plan
-  post: []
