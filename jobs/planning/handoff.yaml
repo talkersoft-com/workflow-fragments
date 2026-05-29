@@ -1,4 +1,5 @@
 fragments:
   - "@ship-plans"
+  - "@plan-overview"
   - "@post-ship-reminder"
   - "@key-rules"
