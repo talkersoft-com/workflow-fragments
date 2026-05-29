@@ -26,6 +26,27 @@ SHIPPED | PARTIAL | FAILED
 ...
 ```
 
+## Step 11 — Call hv_ship and report to the user
+
+After writing Results and Retro, call `hv_ship`. When it returns, **print the
+following block verbatim to the user** (fill in all values from the hv_ship output):
+
+---
+
+**Shipped — [PR #<N>](<pr-url>) on `{{.Branch}}`**
+**Next branch: `<next-branch>`** ← the branch the deck auto-transitioned to after merge
+
+To begin the next task on `<next-branch>`, run:
+```
+hv_status  deck: "{{.Deck}}"
+```
+
+---
+
+The hv_ship output contains a line like `Next branch: <name>` — extract that value
+and include it above. If hv_ship does not print a next branch (e.g. manual PR mode),
+write "transition pending — run hv_next after PR is merged" instead.
+
 ### `Retro/LESSONS.md`
 
 ```markdown
