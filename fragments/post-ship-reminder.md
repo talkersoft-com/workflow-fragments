@@ -12,7 +12,7 @@ Next steps:
 3. Then start execution by running:
 
 ```
-/loop Continue executing tasks in {{.WorkflowFolder}}/{{.Deck}}/<execution-branch>/Orchestrate/ORCH.md. Start by running hv_status then hv_next per deck.md. For each unchecked task: read the task file, do the work, run the matching Test file. On failure write Retro/FIX-NNN.md and retry. On pass check the box. When all boxes are checked write Results/RESULT.md and Retro/LESSONS.md — both BEFORE calling hv_ship — then ship and stop.
+workflow Continue executing tasks in {{.WorkflowFolder}}/{{.Deck}}/<execution-branch>/Orchestrate/ORCH.md. Start by running hv_status then hv_next per deck.md. For each unchecked task: read the task file, do the work, run the matching Test file. On failure write Retro/FIX-NNN.md and retry. On pass check the box. When all boxes are checked write Results/RESULT.md and Retro/LESSONS.md — both BEFORE calling hv_ship — then ship and stop.
 ```
 
 ---
