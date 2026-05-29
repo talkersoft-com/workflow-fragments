@@ -8,4 +8,5 @@ tasks:
   jobs:
     - write-plans
     - handoff
-  post: []
+  post:
+    - "@pr-mode-instructions"
