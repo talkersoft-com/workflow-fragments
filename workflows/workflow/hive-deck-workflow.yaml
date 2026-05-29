@@ -1,9 +1,0 @@
-tokens: {}
-
-init:
-  - "@hive-deck-internal-rules"
-
-phases: []
-
-post:
-  - "@rebuild-mcp-artifacts"
