@@ -1,0 +1,5 @@
+extra_init:
+  - "@hive-deck-internal-rules"
+
+extra_post:
+  - "@rebuild-mcp-artifacts"
