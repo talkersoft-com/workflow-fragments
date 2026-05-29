@@ -1,5 +1,9 @@
-extra_init:
+tokens: {}
+
+init:
   - "@hive-deck-internal-rules"
 
-extra_post:
+phases: []
+
+post:
   - "@rebuild-mcp-artifacts"
