@@ -8,7 +8,7 @@
 - **Rebuild MCP artifacts after any MCP code change** — see `@rebuild-mcp-artifacts`. Always rebuild Go binary and/or TypeScript dist, then instruct the user to restart the MCP server via `/mcp`.
 - **See `toolkit/`** for reusable MCP call patterns (hive-deck, database, dotnet)
 - **This scaffold was generated for deck `{{.Deck}}` on branch `{{.Branch}}`**
-- **Workflow folder:** `{{.WorkflowFolder}}/{{.Deck}}/{{.Branch}}`
+- **Workflow folder:** `{{.ExecFolder}}/{{.Deck}}/{{.Branch}}`
 
 ## Handoff — STOP after planning
 

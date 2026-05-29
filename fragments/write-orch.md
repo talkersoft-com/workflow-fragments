@@ -42,7 +42,7 @@ To start execution, type the following command (do not copy-paste):
 {{end}}
 {{if eq .Agent "codex"}}
 ```
-/loop Continue executing tasks in {{.WorkflowFolder}}/{{.Deck}}/{{.Branch}}/Orchestrate/ORCH.md. Start by running hv_status then hv_init (or hv_next) per deck.md. For each unchecked task: read the task file, do the work, run the matching Test file. On failure write Retro/FIX-NNN.md and retry. On pass check the box. When all boxes are checked write Results/RESULT.md and Retro/LESSONS.md — both BEFORE calling hv_ship — then ship and stop.
+/loop Continue executing tasks in {{.ExecFolder}}/{{.Deck}}/{{.Branch}}/Orchestrate/ORCH.md. Start by running hv_status then hv_init (or hv_next) per deck.md. For each unchecked task: read the task file, do the work, run the matching Test file. On failure write Retro/FIX-NNN.md and retry. On pass check the box. When all boxes are checked write Results/RESULT.md and Retro/LESSONS.md — both BEFORE calling hv_ship — then ship and stop.
 ```
 {{end}}
 

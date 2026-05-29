@@ -1,8 +1,0 @@
-tokens:
-  WorkflowPlanningFolder: "{{DeckRoot}}/planning/workflow-plans"
-tasks:
-  init:
-    - "@status-check"
-  jobs:
-    - write-plan
-  post: []
