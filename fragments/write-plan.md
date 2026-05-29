@@ -3,12 +3,12 @@
 Create the folder:
 
 ```
-{{.WorkflowPlanningFolder}}/{{.Deck}}/{{.Branch}}/
+{{.PlanFolder}}/{{.Deck}}/{{.Branch}}/
 ```
 
 ## Step 2 — Write `PLAN.md`
 
-Write `{{.WorkflowPlanningFolder}}/{{.Deck}}/{{.Branch}}/PLAN.md` using the requirements at the end of this prompt.
+Write `{{.PlanFolder}}/{{.Deck}}/{{.Branch}}/PLAN.md` using the requirements at the end of this prompt.
 
 ```markdown
 # Plan: <title derived from requirements>
